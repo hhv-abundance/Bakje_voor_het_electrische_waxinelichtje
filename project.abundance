@@ -11,9 +11,88 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-2"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.2230290456431535,
+      "y": 0.5892351274787535,
+      "uniqueID": "id-4",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 42,
+          "currentEquation": "42"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.34387966804979253,
+      "y": 0.5439093484419263,
+      "uniqueID": "id-7",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 10,
+          "currentEquation": "10"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.4242738589211618,
+      "y": 0.6713881019830028,
+      "uniqueID": "id-11",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 40,
+          "currentEquation": "40"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5316390041493776,
+      "y": 0.6813031161473088,
+      "uniqueID": "id-14",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 8,
+          "currentEquation": "8"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.5923236514522822,
+      "y": 0.4419263456090652,
+      "uniqueID": "id-18"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-7"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "id-7",
+      "ap2ID": "id-18"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-11",
+      "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "id-14",
+      "ap2ID": "id-18"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
