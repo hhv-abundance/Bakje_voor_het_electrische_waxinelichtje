@@ -1,0 +1,13 @@
+{
+    "atomType": "Molecule",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "id-1",
+    "name": "Bakje_voor_het_electrische_waxinelichtje",
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1
+}
