@@ -14,27 +14,25 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2230290456431535,
-      "y": 0.5892351274787535,
+      "x": 0.22458506224066388,
+      "y": 0.5835694050991502,
       "uniqueID": "id-4",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 42,
-          "currentEquation": "42"
+          "ioValue": 42
         }
       ]
     },
     {
       "atomType": "Extrude",
-      "x": 0.34387966804979253,
-      "y": 0.5439093484419263,
+      "x": 0.34802904564315357,
+      "y": 0.5155807365439093,
       "uniqueID": "id-7",
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 18,
-          "currentEquation": "18"
+          "ioValue": 16
         }
       ]
     },
@@ -46,8 +44,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 39,
-          "currentEquation": "39"
+          "ioValue": 10
         }
       ]
     },
@@ -59,8 +56,7 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 16,
-          "currentEquation": "16"
+          "ioValue": 14
         }
       ]
     },
@@ -72,13 +68,13 @@
     },
     {
       "atomType": "Export",
-      "x": 0.7640041493775934,
-      "y": 0.5354107648725213,
+      "x": 0.7676348547717842,
+      "y": 0.5382436260623229,
       "uniqueID": "id-22",
       "ioValues": [
         {
           "name": "File Type",
-          "ioValue": "STEP"
+          "ioValue": "STL"
         },
         {
           "name": "Resolution (dpi)",
@@ -89,7 +85,7 @@
           "ioValue": "Bakje_voor_het_electrische_waxinelichtje"
         }
       ],
-      "type": "STEP",
+      "type": "STL",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Bakje_voor_het_electrische_waxinelichtje"
