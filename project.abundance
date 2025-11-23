@@ -33,8 +33,8 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 18,
+          "currentEquation": "18"
         }
       ]
     },
@@ -46,8 +46,8 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 40,
-          "currentEquation": "40"
+          "ioValue": 39,
+          "currentEquation": "39"
         }
       ]
     },
@@ -59,8 +59,8 @@
       "ioValues": [
         {
           "name": "height",
-          "ioValue": 8,
-          "currentEquation": "8"
+          "ioValue": 16,
+          "currentEquation": "16"
         }
       ]
     },
