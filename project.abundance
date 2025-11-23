@@ -37,40 +37,42 @@
       ]
     },
     {
-      "atomType": "Circle",
-      "x": 0.4242738589211618,
+      "atomType": "Extrude",
+      "x": 0.5242738589211619,
       "y": 0.6713881019830028,
-      "uniqueID": "id-11",
+      "uniqueID": "id-44",
       "ioValues": [
         {
-          "name": "diameter",
-          "ioValue": 10
+          "name": "height",
+          "ioValue": 14,
+          "currentEquation": "14"
         }
       ]
     },
     {
-      "atomType": "Extrude",
-      "x": 0.5316390041493776,
-      "y": 0.6813031161473088,
-      "uniqueID": "id-14",
+      "atomType": "Circle",
+      "x": 0.37811203319502074,
+      "y": 0.6770538243626062,
+      "uniqueID": "id-54",
       "ioValues": [
         {
-          "name": "height",
-          "ioValue": 14
+          "name": "diameter",
+          "ioValue": 39.6,
+          "currentEquation": "39.6"
         }
       ]
     },
     {
       "atomType": "Difference",
-      "x": 0.5923236514522822,
-      "y": 0.4419263456090652,
-      "uniqueID": "id-18"
+      "x": 0.5612033195020747,
+      "y": 0.34277620396600567,
+      "uniqueID": "id-57"
     },
     {
       "atomType": "Export",
-      "x": 0.7738589211618258,
-      "y": 0.5368271954674221,
-      "uniqueID": "id-22",
+      "x": 0.7235477178423236,
+      "y": 0.42209631728045327,
+      "uniqueID": "id-61",
       "ioValues": [
         {
           "name": "File Type",
@@ -85,7 +87,7 @@
           "ioValue": "Bakje_voor_het_electrische_waxinelichtje"
         }
       ],
-      "type": "STL",
+      "type": null,
       "resolution": 96,
       "importIndex": 0,
       "partName": "Bakje_voor_het_electrische_waxinelichtje"
@@ -100,22 +102,22 @@
     {
       "ap2Name": "geometry1",
       "ap1ID": "id-7",
-      "ap2ID": "id-18"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-11",
-      "ap2ID": "id-14"
+      "ap2ID": "id-57"
     },
     {
       "ap2Name": "geometry2",
-      "ap1ID": "id-14",
-      "ap2ID": "id-18"
+      "ap1ID": "id-44",
+      "ap2ID": "id-57"
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-18",
-      "ap2ID": "id-22"
+      "ap1ID": "id-54",
+      "ap2ID": "id-44"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-57",
+      "ap2ID": "id-61"
     }
   ],
   "unitsKey": "MM",
