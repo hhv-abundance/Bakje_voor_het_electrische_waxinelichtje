@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
-      "y": 0.5,
+      "x": 0.9709543568464731,
+      "y": 0.4957507082152974,
       "uniqueID": "id-2"
     },
     {
@@ -69,6 +69,30 @@
       "x": 0.5923236514522822,
       "y": 0.4419263456090652,
       "uniqueID": "id-18"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7640041493775934,
+      "y": 0.5354107648725213,
+      "uniqueID": "id-22",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Bakje_voor_het_electrische_waxinelichtje"
+        }
+      ],
+      "type": "STEP",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Bakje_voor_het_electrische_waxinelichtje"
     }
   ],
   "allConnectors": [
@@ -91,6 +115,11 @@
       "ap2Name": "geometry2",
       "ap1ID": "id-14",
       "ap2ID": "id-18"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-18",
+      "ap2ID": "id-22"
     }
   ],
   "unitsKey": "MM",
