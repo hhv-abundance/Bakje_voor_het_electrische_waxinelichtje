@@ -91,6 +91,15 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Bakje_voor_het_electrische_waxinelichtje"
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.13744813278008297,
+      "y": 0.23087818696883852,
+      "uniqueID": "id-66",
+      "name": "README",
+      "readMeText": "Readme text here",
+      "global": true
     }
   ],
   "allConnectors": [
